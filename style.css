@@ -1,0 +1,36 @@
+.product-container{
+    display: flex;
+    background-color: aqua;
+    max-width: 100%;
+    padding: 2%;
+    margin: auto;
+}
+
+.product-container > div{
+    background-color: #f1f1f1;
+    margin: auto;
+    max-width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+.product-title{
+    text-align: center;
+    padding-top: 10em;
+    margin: auto;
+    background-color: aquamarine;
+    padding-bottom: 0%;
+}
+.video-container{
+    margin: auto;
+    padding-top: 10%;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.form-container{
+    margin: auto;
+    padding-top: 10%;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
