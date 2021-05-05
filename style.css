@@ -26,6 +26,9 @@
     font-size: 30px;
     
 }
+.product-container img{
+    border-radius: .5em;
+}
 .product-title{
     text-align: center;
     padding-top: 10em;
