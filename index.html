@@ -11,26 +11,43 @@
     <header id="header">
 
         <nav id="nav-bar" class="navbar fixed-top navbar-dark bg-dark">
-            <img src="images\cosmic-vibes.jpg" alt="company-logo" id="header-img" width="100" height="100">
+            
+            <a class="navbar-brand" href="#">
+            <img src="images\cosmic-vibes.jpg" alt="company-logo" id="header-img" width="80" height="80">
+            </a>
+            <a class="nav-item" href="#products">Products</a>
 
-            <a class="nav-item nav-link" href="#products">Products</a>
-            <a class="nav-item nav-link" href="#about">About Us</a>
-            <a class="nav-item nav-link" href="#signup">Sign Up</a>
+            <a class="nav-item" href="#about">About Us</a>
 
+            <a class="nav-item" href="#signup">Sign Up</a>
+
+            
         </nav>
 
     </header>
 
     <body>
 
-        <div class="product-title">
+        <div class="product-title" id="products">
             <h2>Products</h2>
         </div>
-        <div class="product-container" id="products">
+        <div class="product-container">
 
-            <div><img src="images\Drip_Goku.jpg" alt="company-logo" id="header-img" width="400" height="400"></div>
-            <div><img src="images\patrick.jpg" alt="company-logo" id="header-img" width="400" height="400"></div>
-            <div><img src="images\spongeboob.jpg" alt="company-logo" id="header-img" width="400" height="400"></div>
+            <div>
+                <img src="images\Drip_Goku.jpg" alt="goku drip" id="product-img" width="400" height="400">
+                <p class="vibe">The Goku Vibe</p>
+                <p class="price">$420</p>
+            </div>
+            <div>
+                <img src="images\patrick.jpg" alt="patrick drip" id="product-img" width="400" height="400">
+                <p class="vibe">The Patrick Vibe</p>
+                <p class="price">$699</p>
+            </div>
+            <div>
+                <img src="images\spongeboob.jpg" alt="spongeboob drip" id="product-img" width="400" height="400">
+                <p class="vibe">The Spongebob Vibe</p>
+                <p class="price">$999</p>
+            </div>
         </div>
 
         <div class="video-container" id="about">
@@ -46,9 +63,11 @@
 
         <div class="form-container" id="signup">
             <h2>Sign up for our newsletter</h2>
+            <p>Get the latest information when we drop new products!</p>
+            <img src="images\stock.png" alt="stock-logo" id="stock-img" width="400" height="400">
             <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input type="email" id="email" placeholder="Enter your email" name="email">
-                <input type="submit" id="submit" value="Submit">
+                <input type="email" id="email" class="col-md-2" placeholder="Enter your email" name="email">
+                <input type="submit" id="submit" value="Submit" class="btn btn-primary">
 
             </form>
 
@@ -56,4 +75,14 @@
 
     </body>
 
+    <footer>
+        <div class="footer-box">           
+           
+            <div><a href="https://github.com/strato67"><img src="images\githublogo.png" alt="github" id="product-img" width="50" height="50"></a></div>
+            <div><a href="https://twitter.com/saaransh_"><img src="images\twit.jpg" alt="goku drip" id="product-img" width="50" height="50"></a></div>
+        
+        </div>
+        <p>Copyright &copy 2021 - Cosmic Vibes</p>
+        
+    </footer>
     </html>
